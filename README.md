@@ -1,9 +1,10 @@
 # Dashboard
 Used Firebase for authentication (registration, authorization),
 Axios,
-Vue-notification,
+Vue2,
 VueRouter,
-Vuex.
+Vuex,
+Vue-notification.
 
 The rest of the components are custom.
 
