@@ -1,8 +1,8 @@
 # Dashboard
 Used Firebase for authentication (registration, authorization),
-Axios to get data from the server,
+Axios,
 Vue-notification,
-Vue-router,
+VueRouter,
 Vuex.
 
 The rest of the components are custom.
