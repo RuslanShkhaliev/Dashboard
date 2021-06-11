@@ -1,0 +1,11 @@
+
+@-webkit-keyframes animation-blink {
+  0% { opacity: .8 }
+  50% { opacity: 0 }
+  100% { opacity: .8 }
+}
+@keyframes animation-blink {
+  0% { opacity: .8 }
+  50% { opacity: 0 }
+  100% { opacity: .8 }
+}
