@@ -3,6 +3,8 @@
 
 Used firebase for authentication (registration, authorization),
 Axios to get data from the server,
-Vue-notification - notifications,
-Vue-router, Vuex.
+Vue-notification,
+Vue-router,
+Vuex.
+
 The rest of the components are custom.
