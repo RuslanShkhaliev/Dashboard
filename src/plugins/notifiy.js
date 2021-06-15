@@ -2,6 +2,15 @@ import Vue from 'vue';
 import VueNotification from "vue-notification";
 Vue.use(VueNotification)
 
+/**
+ * input parameters of notification
+ * @property {string} type as theme of notify
+ * @property {string} title
+ * @property {string} text - description of notify
+ * @property {number} duration - display time
+ * @property {string} group - data of modal
+ * @property {object} position - data of modal
+ */
 export const notify =
     ({
          type = "success",
