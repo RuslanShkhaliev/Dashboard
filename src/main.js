@@ -4,6 +4,7 @@ import App from "./App";
 import * as config from "./config";
 
 Vue.config.productionTip = false;
+
 new Vue({
   ...config,
   // eslint-disable-next-line no-undef
