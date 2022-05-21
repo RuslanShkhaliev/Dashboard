@@ -2,59 +2,23 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
-  <meta content="IE=edge" http-equiv="X-UA-Compatible">
-  <meta content="width=device-width,initial-scale=1.0" name="viewport">
-  <link href="<%= BASE_URL %>favicon.ico" rel="icon">
+  <meta
+    content="IE=edge"
+    http-equiv="X-UA-Compatible"
+  >
+  <meta
+    content="width=device-width,initial-scale=1.0"
+    name="viewport"
+  >
   <title><%= htmlWebpackPlugin.options.title %></title>
-  <style type="text/css">
-    .pre-loader {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      z-index: 1000;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      overflow: hidden;
-      animation-delay: 1s;
-      background-color: #262626;
-    }
-    #circle4 {
-      display: block;
-      max-height: 60px;
-      max-width: 60px;
-      width: 5vw;
-      height: 5vw;
-      min-height: 50px;
-      min-width: 50px;
-      border: 3px #ffc107 solid;
-      border-top-color: transparent;
-      border-radius: 50%;
-      animation: spin4 1s infinite linear;
-    }
-    @keyframes spin4 {
-      from {
-        transform: rotate(0deg);
-      }
-      to {
-        transform: rotate(359deg);
-      }
-    }
-  </style>
 </head>
 <body>
 <noscript>
   <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
-    Please enable it to continue.</strong>
+          Please enable it to continue.</strong>
 </noscript>
 
-<div id="app">
-  <div class="pre-loader">
-    <div id="circle4"></div>
-  </div>
-</div>
+<div id="app"></div>
 <!-- built files will be auto injected -->
 </body>
 </html>

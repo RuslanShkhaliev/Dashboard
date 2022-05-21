@@ -1,11 +1,8 @@
-import Vue from "vue";
-import VueRouter from "vue-router";
+import { createRouter, createWebHistory } from "vue-router";
 
 import { dashboardRoutes } from "./modules/dashboard/dashboard-routes";
 import { profileRoutes } from "./modules/profile/profile-routes";
 import { store } from "./store";
-
-Vue.use(VueRouter);
 
 const routes = [
   {
@@ -25,8 +22,8 @@ const routes = [
   ...dashboardRoutes,
   ...profileRoutes,
 ];
-const router = new VueRouter({
-  mode: "history",
+const router = new createRouter({
+  mode: createWebHistory(),
   // eslint-disable-next-line no-undef
   base: process.env.BASE_URL,
   routes,
