@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import {store} from "../app/store";
+import {store} from "../store";
 /**
  * @property {string} modalName - name of modal
  * @property {object} data - data of modal
